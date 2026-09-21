@@ -1,149 +1,156 @@
-<div align="center">
-
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:00ADD8&height=200&section=header&text=A%20L%20D%20O&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=Machine%20Learning%20Engineer&descSize=20&descAlignY=58&animation=fadeIn" />
-
-</div>
-
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00ADD8&center=true&vCenter=true&width=500&lines=Machine+Learning+Engineer+%F0%9F%A4%96;Data+Science+%40+Telkom+University+%F0%9F%8E%93;Competitive+Programmer+%F0%9F%A7%A9;Building+Intelligent+Systems+%F0%9F%9A%80;Go+%7C+Python+%7C+C%2B%2B+Enthusiast" alt="Typing SVG" />
+  <img src="./assets/banner.svg" width="100%" alt="ALDO — Gilbert Geraldo. Machine Learning Engineer. Data, algorithms, and intelligent systems." />
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/gilbert-geraldo-534939364/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://www.instagram.com/geraldo1_0_0_1/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
-  <a href="https://leetcode.com/u/ALDOSFINESHYT/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/></a>
-  <a href="https://codeforces.com/profile/aldos"><img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white"/></a>
-  <a href="mailto:gilbertcat6@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <b>Machine Learning Engineer · Data Science @ Telkom University</b><br />
+  <sub>Bandung, Indonesia &nbsp; / &nbsp; Go · Python · C++</sub>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Gilbertgeraldo&style=for-the-badge&color=00ADD8&label=PROFILE+VIEWS" alt="Profile views" />
+  <a href="https://www.linkedin.com/in/gilbert-geraldo-534939364/"><img src="https://img.shields.io/badge/LinkedIn-111827?style=for-the-badge&amp;logoColor=22D3EE" alt="Connect on LinkedIn" /></a>
+  <a href="mailto:gilbertcat6@gmail.com"><img src="https://img.shields.io/badge/Email-111827?style=for-the-badge&amp;logo=gmail&amp;logoColor=22D3EE" alt="Email Gilbert" /></a>
+  <a href="https://www.instagram.com/geraldo1_0_0_1/"><img src="https://img.shields.io/badge/Instagram-111827?style=for-the-badge&amp;logo=instagram&amp;logoColor=22D3EE" alt="Find me on Instagram" /></a>
 </p>
 
----
+<p align="center">
+  <a href="#about-me">About</a> &nbsp; · &nbsp;
+  <a href="#tech-stack">Tech stack</a> &nbsp; · &nbsp;
+  <a href="#problem-solving">Problem solving</a> &nbsp; · &nbsp;
+  <a href="#github-activity">Activity</a>
+</p>
 
-## 👨‍💻 About Me
+<br />
+
+## About me
+
+Hi, I'm **Gilbert Geraldo**, also known as **Aldo**. I'm a Machine Learning Engineer studying **Data Science at Telkom University**, with an interest in turning data and algorithms into intelligent systems.
+
+- **Learning & building** — machine learning, AI, and data engineering.
+- **Thinking in algorithms** — competitive programming and problem solving.
+- **Connecting the pieces** — backend engineering with Go, Python, and C++.
+
+<details>
+<summary><b>A little more about me, in Go</b></summary>
 
 ```go
 package main
 
 import "fmt"
 
-type Engineer struct {
-	Name         string
-	Role         string
-	University   string
-	Location     string
-	Interests    []string
-	CurrentFocus string
-}
-
 func main() {
-	me := Engineer{
-		Name:       "Gilbert Geraldo",
-		Role:       "Machine Learning Engineer",
-		University: "Data Science @ Telkom University",
-		Location:   "Bandung, West Java 🇮🇩",
-		Interests: []string{
-			"Machine Learning & AI",
-			"Data Engineering",
-			"Competitive Programming",
-			"Backend Engineering",
-		},
-		CurrentFocus: "Building Intelligent Systems 🤖",
-	}
-	fmt.Printf("Hello, World! I'm %s\n", me.Name)
+    aldo := struct {
+        Name       string
+        Role       string
+        University string
+        Location   string
+        Languages  []string
+        Focus      string
+    }{
+        Name:       "Gilbert Geraldo",
+        Role:       "Machine Learning Engineer",
+        University: "Data Science @ Telkom University",
+        Location:   "Bandung, West Java, Indonesia",
+        Languages:  []string{"Go", "Python", "C++"},
+        Focus:      "Building intelligent systems",
+    }
+
+    fmt.Printf("Hello, world! I'm %s.\n", aldo.Name)
 }
 ```
 
----
+</details>
 
-## 🚀 Tech Stack
+<br />
 
-<details open>
-<summary><b>🧩 Languages</b></summary>
-<br>
+## Tech stack
 
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+The tools I use to explore ideas and bring them to life.
+
+**Languages**
+
+<p>
+  <img src="https://img.shields.io/badge/Go-111827?style=for-the-badge&amp;logo=go&amp;logoColor=22D3EE" alt="Go" />
+  <img src="https://img.shields.io/badge/Python-111827?style=for-the-badge&amp;logo=python&amp;logoColor=22D3EE" alt="Python" />
+  <img src="https://img.shields.io/badge/C%2B%2B-111827?style=for-the-badge&amp;logo=cplusplus&amp;logoColor=22D3EE" alt="C++" />
+</p>
+
+**Machine learning & data**
+
+<p>
+  <img src="https://img.shields.io/badge/Pandas-111827?style=for-the-badge&amp;logo=pandas&amp;logoColor=22D3EE" alt="Pandas" />
+  <img src="https://img.shields.io/badge/NumPy-111827?style=for-the-badge&amp;logo=numpy&amp;logoColor=22D3EE" alt="NumPy" />
+  <img src="https://img.shields.io/badge/Jupyter-111827?style=for-the-badge&amp;logo=jupyter&amp;logoColor=22D3EE" alt="Jupyter" />
+</p>
+
+**Databases**
+
+<p>
+  <img src="https://img.shields.io/badge/PostgreSQL-111827?style=for-the-badge&amp;logo=postgresql&amp;logoColor=22D3EE" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/MySQL-111827?style=for-the-badge&amp;logo=mysql&amp;logoColor=22D3EE" alt="MySQL" />
+</p>
+
+**Developer tools**
+
+<p>
+  <img src="https://img.shields.io/badge/Git-111827?style=for-the-badge&amp;logo=git&amp;logoColor=22D3EE" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&amp;logo=github&amp;logoColor=22D3EE" alt="GitHub" />
+  <img src="https://img.shields.io/badge/Figma-111827?style=for-the-badge&amp;logo=figma&amp;logoColor=22D3EE" alt="Figma" />
+</p>
+
+<br />
+
+## Problem solving
+
+Practicing algorithms, sharpening intuition, and working toward better solutions.
+
+<p>
+  <a href="https://leetcode.com/u/ALDOSFINESHYT/"><img src="https://img.shields.io/badge/LeetCode-111827?style=for-the-badge&amp;logo=leetcode&amp;logoColor=FBBF24" alt="LeetCode — ALDOSFINESHYT" /></a>
+  <a href="https://codeforces.com/profile/aldos"><img src="https://img.shields.io/badge/Codeforces-111827?style=for-the-badge&amp;logo=codeforces&amp;logoColor=22D3EE" alt="Codeforces — aldos" /></a>
+</p>
+
+<br />
+
+## GitHub activity
+
+<p align="center">
+  <a href="https://github.com/Gilbertgeraldo?tab=repositories">
+    <img src="https://github-stats-extended.vercel.app/api?username=Gilbertgeraldo&amp;show_icons=true&amp;hide_border=false&amp;border_color=223044&amp;bg_color=0D1117&amp;title_color=22D3EE&amp;icon_color=22D3EE&amp;text_color=C9D1D9&amp;ring_color=22D3EE&amp;border_radius=12&amp;rank_icon=github&amp;custom_title=Building%20in%20public" width="480" alt="Gilbert Geraldo's public GitHub statistics" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=Gilbertgeraldo&amp;hide_border=false&amp;border=223044&amp;background=0D1117&amp;stroke=223044&amp;ring=22D3EE&amp;fire=22D3EE&amp;currStreakNum=F0F6FC&amp;sideNums=F0F6FC&amp;currStreakLabel=22D3EE&amp;sideLabels=C9D1D9&amp;dates=94A3B8&amp;border_radius=12" width="480" alt="GitHub contribution streak for Gilbert Geraldo" />
+</p>
+
+<details>
+<summary><b>Explore my most-used languages</b></summary>
+<br />
+
+<p align="center">
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Gilbertgeraldo&amp;layout=compact&amp;langs_count=6&amp;hide_border=false&amp;border_color=223044&amp;bg_color=0D1117&amp;title_color=22D3EE&amp;text_color=C9D1D9&amp;border_radius=12" width="400" alt="Most-used languages across my public GitHub repositories" />
+</p>
 
 </details>
 
-<details open>
-<summary><b>🤖 Machine Learning & Data</b></summary>
-<br>
+<br />
 
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+<p align="center"><b>A little progress, one contribution at a time.</b></p>
 
-</details>
-
-<details open>
-<summary><b>🗄️ Database & Tools</b></summary>
-<br>
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-
-</details>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-  <img src="https://github-readme-stats.vercel.app/api?username=Gilbertgeraldo&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00ADD8&icon_color=00ADD8" height="165" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gilbertgeraldo&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00ADD8" height="165" alt="Top Langs" />
-
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Gilbertgeraldo&theme=tokyonight&hide_border=true&background=0d1117&ring=00ADD8&fire=00ADD8&currStreakLabel=00ADD8" alt="GitHub Streak" />
-</div>
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Gilbertgeraldo&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=7" alt="GitHub Trophies" />
-</div>
-
----
-
-## 📈 Contribution Activity
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Gilbertgeraldo&bg_color=0d1117&color=00ADD8&line=00ADD8&point=ffffff&area=true&hide_border=true" alt="Contribution Graph" />
-</div>
-
----
-
-## 🐍 Contribution Snake
-
-<div align="center">
+<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Gilbertgeraldo/Gilbertgeraldo/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Gilbertgeraldo/Gilbertgeraldo/output/github-contribution-grid-snake.svg" />
-    <img alt="snake animation" src="https://raw.githubusercontent.com/Gilbertgeraldo/Gilbertgeraldo/output/github-contribution-grid-snake.svg" />
+    <img src="https://raw.githubusercontent.com/Gilbertgeraldo/Gilbertgeraldo/output/github-contribution-grid-snake.svg" width="100%" alt="Animated snake moving through Gilbert Geraldo's contribution grid" />
   </picture>
-</div>
+</p>
 
 ---
 
-<div align="center">
+<p align="center">
+  <b>Let's talk data, algorithms, and interesting ideas.</b><br />
+  <a href="mailto:gilbertcat6@gmail.com">Say hello</a> &nbsp; ↗
+</p>
 
-  ### 💬 Random Dev Quote
-  ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
-
-</div>
-
----
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ADD8,100:0d1117&height=100&section=footer" />
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Gilbertgeraldo&amp;style=flat-square&amp;color=0891B2&amp;label=PROFILE+VIEWS" alt="Profile view counter" />
+</p>
