@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="350" viewBox="0 0 600 350" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">ALDO — Gilbert Geraldo, Machine Learning Engineer</title>
+  <desc id="desc">Data Science at Telkom University. Bandung, Indonesia. Go, Python, C++. A compact banner with a cyan neural network.</desc>
+  <defs>
+    <linearGradient id="bg" x2="600" y2="350" gradientUnits="userSpaceOnUse"><stop stop-color="#0D1117"/><stop offset="1" stop-color="#102437"/></linearGradient>
+    <linearGradient id="word" x2="290" y2="180" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#AAC4D7"/></linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" stroke="#94A3B8" stroke-opacity=".05"/></pattern>
+    <clipPath id="card"><rect x="1" y="1" width="598" height="348" rx="20"/></clipPath>
+    <style>
+      text { font-family: system-ui, -apple-system, 'Segoe UI', Arial, sans-serif; }
+      @keyframes pulse { 0%, 100% { opacity: .4; } 50% { opacity: 1; } }
+      .pulse { animation: pulse 3s ease-in-out infinite; }
+      @media (prefers-reduced-motion: reduce) { .pulse { animation: none; } }
+    </style>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="600" height="350" fill="url(#bg)"/>
+    <rect width="600" height="350" fill="url(#grid)"/>
+    <path d="M32 1H568" stroke="#22D3EE" stroke-opacity=".7" stroke-width="2"/>
+    <circle cx="36" cy="38" r="4" fill="#22D3EE"/>
+    <text x="50" y="43" fill="#94A3B8" font-size="14" font-weight="600" letter-spacing="2.5">GILBERT GERALDO</text>
+    <text x="28" y="165" fill="url(#word)" font-size="112" font-weight="800" letter-spacing="-5">ALDO<tspan fill="#22D3EE">.</tspan></text>
+    <g stroke="#22D3EE" stroke-opacity=".25" stroke-width="1.5">
+      <path d="M392 84L455 66M392 84L455 116M392 84L455 166M392 146L455 66M392 146L455 116M392 146L455 166M455 66L530 116M455 116H530M455 166L530 116"/>
+      <g fill="#102437" stroke-opacity=".7"><circle cx="392" cy="84" r="9"/><circle cx="392" cy="146" r="9"/><circle cx="455" cy="66" r="9"/><circle cx="455" cy="116" r="9"/><circle cx="455" cy="166" r="9"/><circle cx="530" cy="116" r="12"/></g>
+    </g>
+    <g class="pulse" fill="#67E8F9"><circle cx="392" cy="146" r="3"/><circle cx="455" cy="116" r="3"/><circle cx="530" cy="116" r="5"/></g>
+    <text x="32" y="212" fill="#E6EDF3" font-size="28" font-weight="650">Machine Learning Engineer</text>
+    <text x="32" y="245" fill="#7FD9E8" font-size="20">Data Science @ Telkom University</text>
+    <path d="M32 271H568" stroke="#263D50"/>
+    <text x="32" y="310" fill="#94A3B8" font-size="16">Bandung, Indonesia</text>
+    <text x="568" y="310" text-anchor="end" fill="#67E8F9" font-size="16" font-weight="600">Go · Python · C++</text>
+  </g>
+  <rect x=".5" y=".5" width="599" height="349" rx="20" stroke="#26394C"/>
+</svg>

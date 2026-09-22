@@ -115,7 +115,7 @@
 
       <g>
         <text x="62" y="292" fill="#8B98A9" font-size="15">Data, algorithms, and intelligent systems.</text>
-        <rect class="caret" x="340" y="280" width="9" height="16" fill="#22D3EE"/>
+        <rect class="caret" x="350" y="280" width="7" height="16" fill="#22D3EE"/>
       </g>
 
       <path d="M62 316H430" stroke="#22394D"/>
