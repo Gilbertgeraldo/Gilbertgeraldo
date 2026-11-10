@@ -82,7 +82,7 @@ func main() {
     </tr>
     <tr>
       <td><b>Tools &amp; design</b></td>
-      <td><img src="./assets/stack-git.svg" height="26" alt="Git" /> <img src="./assets/stack-github.svg" height="26" alt="GitHub" /> <img src="./assets/stack-figma.svg" height="26" alt="Figma" /> <img src="./assets/stack-latex.svg" height="26" alt="LaTeX" /></td>
+      <td><img src="./assets/stack-git.svg" height="26" alt="Git" /> <img src="./assets/stack-github.svg" height="26" alt="GitHub" /> <img src="./assets/stack-figma.svg" height="26" alt="Figma" /></td>
     </tr>
   </tbody>
 </table>
